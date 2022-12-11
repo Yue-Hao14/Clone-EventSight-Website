@@ -1,0 +1,90 @@
+html {
+  background-color: #eeedf2;
+  font-family: "Neue Park", sans-serif;
+  color: #6f7287;
+}
+
+.header_title {
+  color:#f05537;
+}
+
+.upper_nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.favicon >img {
+  width: 50px;
+}
+
+.upper_nav > a {
+  text-decoration: none;
+  color:#f05537;
+}
+
+button {
+  color: #6f7287;
+  border: 2px solid #6f7287;
+  width: 25%;
+  height: 40px;
+  box-shadow: 3px 3px #b8b9c1;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+h1 {
+  color: #6f7287;
+  font-size: 20px;
+}
+
+.event_cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.event_cards img {
+  height: 16em;
+  width: 26em;
+}
+
+.event1, .event2, .event3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.price {
+  color: #6f7287;
+}
+
+.see_more {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #FFFFFF;
+  background-color: #1e0a3c;
+  margin-top: 1em;
+  height: 5em;
+  padding-right: 20px;
+
+}
+
+@media screen and (max-width: 700px) {
+  .upper_nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center;  */
+  }
+}
